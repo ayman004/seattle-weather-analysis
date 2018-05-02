@@ -49,4 +49,5 @@ def update_figure(selected_year,xaxis_column_name):
 	}
 if __name__ == '__main__':
 	ADDRESS = '192.168.0.112'
+	#app.run_server(host=ADDRESS)
 	app.run_server()
